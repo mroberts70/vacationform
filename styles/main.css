@@ -31,6 +31,13 @@ header {
 header img {
     max-width: 150px;
 }
+
+.bigitem {
+    /* font-weight: bold; */
+    color: red;
+}
+
+
 footer {
     padding: 2em 0;
     display: flex;
@@ -104,11 +111,15 @@ input[type="checkbox"] {
     height: 25px;   
     
 }
+label {
+    font-weight: bold;
+}
 input[type="checkbox"]:checked {
     opacity: .75;
 }
 input[type="checkbox"]:checked ~ label {
     color: gray;
+    font-weight: normal;
 }
 input[type="reset"] {
     margin: 1em;
