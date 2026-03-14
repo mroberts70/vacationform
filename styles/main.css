@@ -36,7 +36,9 @@ header img {
     /* font-weight: bold; */
     color: red;
 }
-
+.category ul li {
+    padding-bottom: 5px;
+}
 
 footer {
     padding: 2em 0;
@@ -182,5 +184,8 @@ h2, h3 {
     .packing-list__lists {
         flex-wrap: wrap;
     }
+    .category ul li {
+    padding-bottom: 15px;
+}
 
 }
