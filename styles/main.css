@@ -40,7 +40,7 @@ footer {
     font-weight: bold;
     font-variant: small-caps;
     background-color: black;
-    color: lightgreen;
+    color: rgb(0, 255, 55);
 }
 footer p {
     text-align: center;
@@ -48,7 +48,7 @@ footer p {
 }
 
 a:link, a:visited {
-    color: lightblue;
+    color: rgb(0, 255, 55);
     text-decoration: none;
 
 }
@@ -113,9 +113,9 @@ input[type="checkbox"]:checked ~ label {
 input[type="reset"] {
     margin: 1em;
     padding: .5em;
-    background-color: darkgreen;
+    background-color: rgb(1, 56, 1);
     border: 3px solid darkgreen;
-    color: yellow;
+    color: rgb(0, 255, 55);
     font-size: 115%;
     font-weight: bold;
     box-shadow: 2px 2px 6px 2px black;
@@ -132,7 +132,7 @@ p, .headline {
 }
 h2, h3 {
     font-size: 150%;
-    color: fuchsia;
+    color: rgb(0, 255, 55);
     margin: 0 .5em .75em;
 }
 
