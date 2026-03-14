@@ -39,7 +39,12 @@ footer {
     font-size: 85%;
     font-weight: bold;
     font-variant: small-caps;
+    background-color: black;
     color: lightgreen;
+}
+footer p {
+    text-align: center;
+    line-height: 3;
 }
 
 a:link, a:visited {
