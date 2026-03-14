@@ -160,7 +160,11 @@ h2, h3 {
     }
     .twocols {
         flex-direction: column;
+        flex: 0 1 95%;
     }
-    
+
+    .packing-list__lists {
+        flex-wrap: wrap;
+    }
 
 }
